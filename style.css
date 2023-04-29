@@ -5,14 +5,267 @@
 .total{
     border: 1px solid black;
     height: 400px;
-    border-radius: 5px;
+    border-radius: 24px;
 }
 .right-section{
     border: 1px solid black;
-    height: 380px;
+    height: 250px;
     width: 350px;
     background-color: lightgray;
     position: absolute;
-    top: 10px;
+    top: 75px;
     right: 20px;
+}
+.main-keyset{
+    border:1px solid blue;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    position:absolute;
+    width:900px;
+    height: 310px;
+    top:75px;
+    left:10px;
+}
+.esc-base{
+    position:relative;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:2px;
+}
+.esc-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.16px;
+}
+
+.f1-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:46px;
+}
+.f1-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.16px;
+}
+.f2-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:90px;
+}
+.f2-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.f3-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:134px;
+}
+.f3-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.f4-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:178px;
+}
+.f4-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.f5-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:222px;
+}
+.f5-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.f6-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:266px;
+}
+.f6-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.f7-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:310px;
+}
+.f7-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.f8-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:354px;
+}
+.f8-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.f9-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:398px;
+}
+.f9-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.f10-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:442px;
+}
+.f10-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.f11-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:486px;
+}
+.f11-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.f12-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:530px;
+}
+.f12-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.insert-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:574px;
+}
+.insert-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
+}
+.delete-base{
+    position:absolute;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 23px;
+    top:2px;
+    left:618px;
+}
+.delete-main{
+    position:absolute;
+    border: 1px solid red;
+    width: 34px;
+    height: 16px;
+    top:0px;
+    left:2.5px;
 }
